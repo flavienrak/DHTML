@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("bg.png");
+  min-height: 100vh;
+  height: 100vh;
+  font-size: 12px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start ;
+  width: 400px;
+  position: absolute;
+  top: 18%;
+  left: 32%;
+  transition: all .3s ease-in-out;
+  background-color: white;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section h4 div{
+  padding: 12px;
+  font-size: 1.25rem;
+  color:rgba(0, 0, 0, 0.75);
+}
+.choix {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.choix h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 1.1rem;
+  
+  margin: 1rem 0;
+}
+section h4{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+section span:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section h4 img{
+border-radius: 12px;
+}
+button {
+  padding: 5px 30px;
+  margin: 20px 0 0 0;
+  border: 1px solid #5372f0;
+  background-color: #5372f0;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+button:focus {
+  background: white;
+  color: #5372f0;
+}
+.boutton{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.displayNone{
+  display: none;
+}
+.index{
+  z-index: --i;
+}
